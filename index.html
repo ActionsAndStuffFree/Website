@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baixar O Actions & Stuff</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            width: 100%;
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: bold;
+            box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        }
+
+        main {
+            flex: 1;
+            width: 90%;
+            max-width: 1000px;
+            margin: 30px auto;
+        }
+
+        .section {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.05);
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+
+        h1 { white-space: nowrap; }
+
+        p { text-align: center; font-size: 0.95rem; }
+
+        .download-btn {
+            display: block;
+            width: 220px;
+            margin: 25px auto;
+            padding: 18px;
+            text-align: center;
+            background: #ffcc00;
+            color: #000;
+            font-weight: bold;
+            font-size: 1rem;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .download-btn:hover {
+            background: #ffd633;
+            transform: scale(1.05);
+        }
+
+        @media(max-width: 600px){
+            .download-btn { width: 90%; font-size: 0.9rem; }
+            header { font-size: 1.2rem; padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Baixar O Actions & Stuff
+    </header>
+
+    <main>
+        <div class="section">
+            <h1>Bem-vindo!</h1>
+            <p>Aqui você pode baixar o Actions & Stuff para Minecraft Bedrock rapidamente!</p>
+        </div>
+
+        <div class="section">
+            <h2>Download</h2>
+            <a class="download-btn" href="Actions-and-Stuff-1.9.zip" download>Baixar Agora</a>
+        </div>
+
+        <div class="section">
+            <h2>Mais Informações</h2>
+            <p>Compatível apenas com Minecraft Bedrock. Baixe o mod oficial Actions & Stuff!</p>
+        </div>
+    </main>
+</body>
+</html>
